@@ -1,0 +1,200 @@
+.App {
+    text-align: left;
+    background-color: #bdaf8a;
+}
+html, body {
+    height: 100%;
+}
+.wrapper {
+    min-height: 100%;
+}
+#main {
+    overflow:auto;
+    padding-bottom: 147px;
+}
+.App-footer {
+    position: relative;
+    background-color: #222;
+    margin-top: -147px;
+    height: 417px;
+    clear: both;
+}
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 50px;
+}
+
+.App-header {
+    background-color: #222;
+    /*background-image: url(../background-img/deep_brown.jpg);*/
+    height: 150px;
+    padding: 20px;
+    color: white;
+    text-align: center;
+
+}
+.title {
+    font-family: mySecondFont;
+    color: lavender;
+    font-size: 36px;
+    text-align: center;
+    padding-top: 25px;
+    letter-spacing: 10px;
+}
+.App-intro {
+  font-size: large;
+}
+
+#label-title {
+    font-family: mySecondFont;
+    color: lavender;
+    font-size: 20px;
+    letter-spacing: 2px;
+    margin-left: 30px;
+    padding-top: 9px;
+    text-decoration: underline;
+}
+.label-content {
+    font-family: myThirdFont;
+    color: lavender;
+    font-size: 25px;
+    letter-spacing: 2px;
+    margin-left: 30px;
+    text-decoration: wavy;
+}
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+.ListTask {
+    position: relative;
+    display: inline-block;
+    vertical-align: top;
+    white-space: normal;
+    height: 100%;
+    width: 33%;
+    padding: 10px;
+    overflow: auto;
+    margin: 201px 2px 0 2px;
+    background-color: #f7dfb3;
+    /*background-image: url(../background-img/vintage-backgrounds-17559-18119-hd-wallpapers.jpg);*/
+
+}
+.task-space {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.w3-myfont {
+    font-size: 20px;
+    font-family: mySecondFont;
+    letter-spacing: 3px;
+}
+.newTask {
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-size: 18px;
+    background-color: teal;
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 90%;
+}
+.newTaskForm {
+    margin: 201px 30% 0 30%;
+    width: 450px;
+}
+.newtask-button-text {
+    font-family: mySecondFont;
+    padding-top: 13px;
+    font-weight: bold;
+}
+.newform {
+    padding: 10px 20px;
+}
+.task-header {
+    background-color: #f3aeb6;
+}
+.TaskName {
+    font-size: 20px;
+    font-family: mySecondFont;
+    text-decoration: underline;
+}
+.task-background {
+    background-image: url(../background-img/6809725-simple-vintage-backgrounds.jpg);
+}
+.w3-validate {
+    color: #343d46;
+    font-size: 16px;
+    font-family: "myFirstFont";
+    margin-left: 10px;
+}
+.w3-input {
+    width: 200px;
+    background-color: whitesmoke;
+    margin-top: 10px;
+    font-family: MyFirstFont;
+}
+.task-footer {
+    padding-bottom: 10px;
+}
+.remove-task, .edit-task {
+    float: right;
+    margin-right: 5px;
+}
+.remove-item {
+    margin-left: 10px;
+    opacity: 0;
+}
+.hover-remove:hover .remove-item{
+    opacity: 1;
+}
+.item-space {
+    margin-left: 10px;
+}
+.sticky-nav {
+    position: fixed;
+    z-index: 10;
+    width: 100%;
+}
+.list-nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+.item-nav {
+    float: left;
+}
+.text-nav {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    /*font-family: "Comic Sans MS", cursive, sans-serif;*/
+    font-family: mySecondFont;
+}
+
+.text-nav:hover {
+    background-color: #111;
+}
+.text-nav:active {
+    background-color:  #6b6b47;
+}
+
+@font-face {
+    font-family: myFirstFont;
+    src: url(DJB.ttf);
+}
+@font-face {
+    font-family: mySecondFont;
+    src: url(DK_Joe_Schmoe.ttf);
+}
+@font-face {
+    font-family: myThirdFont;
+    src: url(HalleyveticaNBP.ttf);
+}
+@font-face {
+    font-family: myFourthFont;
+    src: url(RemachineScript_PERSONAL_USE_ONLY.ttf);
+}
